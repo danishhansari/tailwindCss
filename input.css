@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-primary{
+    color: white;
+    padding: .5em 1em;
+    border-radius: 2em;
+    transition: .2s opacity;
+}
+ul li:hover{
+    color: gray;
+}
+.btn-primary:hover{
+    opacity: .9;
+}
