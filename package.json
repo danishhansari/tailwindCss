@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-project",
+  "version": "1.0.0",
+  "description": "Practising tailwind",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind -i ./input.css -o ./css/main.css",
+    "watch":"tailwind -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/danishhansari/tailwindCss.git"
+  },
+  "keywords": [
+    "tailwind"
+  ],
+  "author": "Ansari Danish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danishhansari/tailwindCss/issues"
+  },
+  "homepage": "https://github.com/danishhansari/tailwindCss#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
