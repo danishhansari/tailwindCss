@@ -5,9 +5,6 @@
 body{
     font-family:'Poppins',Arial, Helvetica, sans-serif;
 }
-.container{
-    max-width: 1300px;
-}
 .btn-primary{
     color: white;
     padding: .5em 1em;
@@ -74,4 +71,7 @@ ul li:hover{
     .mobile-list ul li{
         padding-block: .5em;
         font-size: 1.1em;
+    }
+    .number p{
+        border-radius: 12px;
     }

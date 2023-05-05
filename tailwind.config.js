@@ -3,7 +3,10 @@ module.exports = {
   theme: {
     colors:{
       orange:"#f25f3a",
-      gray:"#9095a7"
+      lightorange:"rgba(242, 95, 58,.2)",
+      gray:"#9095a7",
+      white:"#ffffff",
+      black:'#000'
     },
     extend: {},
   },
