@@ -67,6 +67,9 @@ ul li:hover{
         width: 90%;
         font-weight: 500;
         box-shadow: 2px 5px 10px rgba(0, 0, 0, .2);
+        z-index: 4;
+        background-color: white;
+        border-radius: 3px;
     }
     .mobile-list ul li{
         padding-block: .5em;
