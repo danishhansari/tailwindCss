@@ -819,6 +819,27 @@ video {
 
 body{
   font-family:'Poppins',Arial, Helvetica, sans-serif;
+  background: url('../img/bg-tablet-pattern.svg');
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: 90% -25%;
+}
+
+.cta{
+  background: url('../img/bg-simplify-section-desktop.svg')#f25f3a;
+  background-repeat: no-repeat;
+}
+
+@media (max-width:576px){
+  body{
+    background-position: 50px -50px;
+    background-size: 500px;
+  }
+
+  .cta{
+    background: url("../img/bg-simplify-section-mobile.svg")#f25f3a;
+    background-repeat: no-repeat;
+  }
 }
 
 .container{
@@ -949,6 +970,12 @@ ul li:hover{
   border-radius: 25px;
 }
 
+#background{
+  background: url('../img/bg-simplify-section-desktop.svg');
+  background-size: cover;
+  background-position: center center;
+}
+
 @media (min-width: 640px) {
   .sm\:block {
     display: block;
@@ -986,20 +1013,12 @@ ul li:hover{
     display: none;
   }
 
-  .md\:w-2\/5 {
-    width: 40%;
-  }
-
   .md\:w-20 {
     width: 5rem;
   }
 
   .md\:w-3\/5 {
     width: 60%;
-  }
-
-  .md\:w-3\/6 {
-    width: 50%;
   }
 
   .md\:w-4\/5 {
