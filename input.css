@@ -8,6 +8,11 @@ body{
 .container{
     max-width: 1400px;
 }
+input,
+button{
+    outline: none !important;
+    border: none;
+}
 .btn-primary{
     color: white;
     padding: .5em 1em;
@@ -79,7 +84,7 @@ ul li:hover{
         border-radius: 12px;
     }
     .flex-card{
-        max-width: 300px;
+        max-width: 400px;
     }
     .flex-card img{
         margin-bottom: -1.5em;
@@ -89,4 +94,13 @@ ul li:hover{
         background: rgb(184, 184, 184,.1);
         border-radius: 5px;
         padding: 1em;
+    }
+    #btn{
+        border-radius: 25px;
+    }
+    .cta #btn:hover{
+     opacity: 0.95;   
+    }
+    .form :is(input,a){
+        border-radius: 25px;
     }
