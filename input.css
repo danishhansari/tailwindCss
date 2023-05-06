@@ -13,16 +13,20 @@ button{
     outline: none !important;
     border: none;
 }
-.btn-primary{
-    color: white;
+.btn-primary,
+.btn-primary-inverse{
     padding: .5em 1em;
     border-radius: 2em;
     transition: .2s opacity;
 }
+.btn-primary{
+ color: white;   
+}
 ul li:hover{
     color: gray;
 }
-.btn-primary:hover{
+.btn-primary:hover,
+.btn-primary-inverse:hover{
     opacity: .9;
 }
 .ham{
